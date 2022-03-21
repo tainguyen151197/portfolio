@@ -53,9 +53,9 @@ const Portfolio = () => {
   return (
     <Tabs>
       <TabList className="portfolio-tab-list">
-        <Tab>ALL</Tab>
-        <Tab>LOGO</Tab>
-        <Tab>VIDEO</Tab>
+        <Tab>PROJECT</Tab>
+        <Tab>COURSE</Tab>
+        <Tab>AWARD</Tab>
         <Tab>GRAPHIC DESIGN</Tab>
         <Tab>MOCKUP</Tab>
       </TabList>
@@ -71,7 +71,7 @@ const Portfolio = () => {
               <figure onClick={toggleModalOne}>
                 <img src="img/projects/project-1.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title">Mockup Project</span>
+                  <span className="content-title">SHP Plugin Project</span>
                 </div>
               </figure>
 
@@ -108,7 +108,7 @@ const Portfolio = () => {
               <figure onClick={toggleModalTwo}>
                 <img src="img/projects/project-2.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Youtube Project</span>
+                  <span className="content-title"> Garburator Project</span>
                 </div>
               </figure>
 
@@ -145,7 +145,7 @@ const Portfolio = () => {
               <figure onClick={toggleModalThree}>
                 <img src="img/projects/project-3.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Slider Project</span>
+                  <span className="content-title"> Stick Vacuum Project</span>
                 </div>
               </figure>
 
@@ -186,7 +186,7 @@ const Portfolio = () => {
               >
                 <img src="img/projects/project-4.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Local Video Project</span>
+                  <span className="content-title"> Wine Cellar Project</span>
                 </div>
               </figure>
 
@@ -227,7 +227,7 @@ const Portfolio = () => {
               >
                 <img src="img/projects/project-5.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Saas App Project</span>
+                  <span className="content-title"> TP Bank Project</span>
                 </div>
               </figure>
 
@@ -268,7 +268,7 @@ const Portfolio = () => {
               >
                 <img src="img/projects/project-6.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Mockup Project</span>
+                  <span className="content-title"> Pet Monitoring Project</span>
                 </div>
               </figure>
 
@@ -309,7 +309,7 @@ const Portfolio = () => {
               >
                 <img src="img/projects/project-7.jpg" alt="Portolio" />
                 <div className=" hover-content-wrapper">
-                  <span className="content-title"> Facebook Profile</span>
+                  <span className="content-title"> FPT Golbal Project</span>
                 </div>
               </figure>
 

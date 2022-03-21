@@ -11,21 +11,21 @@ const ModalTwoContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Video</span>
+              <span className="ft-wt-600 uppercase">Garburator</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Videohive</span>
+              <span className="ft-wt-600 uppercase">Samsung Electronics</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
-              <span className="project-label">Software </span>:{" "}
-              <span className="ft-wt-600 uppercase">Adobe After Effects</span>
+              <span className="project-label">Languages </span>:{" "}
+              <span className="ft-wt-600 uppercase">Java, Kotlin</span>
             </div>
             {/* End .col */}
 

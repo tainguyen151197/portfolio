@@ -11,21 +11,21 @@ const ModalOneContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Website</span>
+              <span className="ft-wt-600 uppercase">SHP Plugin</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Envato</span>
+              <span className="ft-wt-600 uppercase">Samsung Electronics</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
-              <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="project-label">Languages </span>:{" "}
+              <span className="ft-wt-600 uppercase">Java</span>
             </div>
             {/* End .col */}
 
@@ -38,7 +38,7 @@ const ModalOneContent = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.envato.com
+                  https://www.samsung.com/vn/smartthings/
                 </a>
               </span>
             </div>

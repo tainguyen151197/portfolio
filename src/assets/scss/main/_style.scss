@@ -428,7 +428,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 .title-section h1 {
   font-size: 56px;
-  font-weight: 900 !important;
+  font-weight: 900 !important; 
   color: #fff;
   text-transform: uppercase;
   margin: 0;
@@ -632,7 +632,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 }
 
 .home .home-details h1 {
-  font-size: 51px;
+  font-size: 45px;
   line-height: 62px;
   font-weight: 700;
   margin: 18px 0 10px;
@@ -933,6 +933,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 
 .portfolio .slideshow a {
   text-decoration: underline;
+  font-size: 10px;
 }
 
 .portfolio .slideshow figcaption {

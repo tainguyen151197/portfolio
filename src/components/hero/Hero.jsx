@@ -3,14 +3,11 @@ import Modal from "react-modal";
 import Index from "../../components/about/index";
 
 const heroContent = {
-  heroImage: "img/hero/dark.jpg",
+  heroImage: "img/hero/iron.jpg",
   heroMobileImage: "img-mobile",
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "khoa pham",
+  heroDesignation: "android developer",
+  heroDescriptions: `I am a kind of full-stack Android Developer with a demonstrated history of working in the IT industry. Seeking a challenging role relating to mobile development which will utilize existing skills and gain new knowledge. I possess strong engineering professional with a Bachelor of Information Technology focused on Application Development by Deakin University, Melbourne, Australia with High Distinction level.`,
   heroBtn: "more about me",
 };
 

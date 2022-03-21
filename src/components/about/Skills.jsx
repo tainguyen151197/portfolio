@@ -1,14 +1,14 @@
 import React from "react";
 
 const skillsContent = [
-  { skillClass: "p25", skillPercent: "25", skillName: "HTML" },
-  { skillClass: "p89", skillPercent: "89", skillName: "JAVASCRIPT" },
-  { skillClass: "p70", skillPercent: "70", skillName: "CSS" },
-  { skillClass: "p66", skillPercent: "66", skillName: "PHP" },
-  { skillClass: "p95", skillPercent: "95", skillName: "WORDPRESS" },
-  { skillClass: "p50", skillPercent: "50", skillName: "JQUERY" },
-  { skillClass: "p65", skillPercent: "65", skillName: "ANGULAR" },
-  { skillClass: "p45", skillPercent: "45", skillName: "REACT" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Java" },
+  { skillClass: "p70", skillPercent: "70", skillName: "Kotlin" },
+  { skillClass: "p80", skillPercent: "80", skillName: "Android" },
+  { skillClass: "p70", skillPercent: "70", skillName: "Git" },
+  { skillClass: "p95", skillPercent: "95", skillName: "C" },
+  { skillClass: "p70", skillPercent: "70", skillName: "Database" },
+  { skillClass: "p85", skillPercent: "85", skillName: "Design Pattern" },
+  { skillClass: "p85", skillPercent: "85", skillName: "RESTful API" },
 ];
 
 const Skills = () => {

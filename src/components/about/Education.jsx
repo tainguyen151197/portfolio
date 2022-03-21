@@ -2,25 +2,28 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "Aug 2017 - Jun 2020",
+    degree: "Bachelor of IT: Application Development",
+    institute: "Deakin UNIVERSITY, Melbounre, Australia",
+    details: `  ● Undergraduate Excellence Award 2021`,
+    details1: `● Top 10 undergraduates in IT Department, High Distinction Level`,
+    details11: ` ● Honor: Alfred Medal for Outstanding Academic Achievement`,
+    details111: ` ● Scholarship: Deakin STEM`,
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "Jul 2015 - Jun 2017",
+    degree: "Bachelor of Electronics Engineering",
+    institute: "Bach Khoa UNIVERSITY, Hochiminh, Vietnam",
+    details: `● Transnational Education`,
+    details1: `● Distinction Level`,
   },
   {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "Aug 2012 - Jun 2015",
+    degree: "Highschool Diploma",
+    institute: "Quang Trung High School For The Gifted, Binh Phuoc, Vietnam",
+    details: `● Mathematics and Informatics class`,
+    details1: ` ● GPA 3.7`,
+    details11: ` ● High Distinction Level`,
   },
 ];
 
@@ -35,9 +38,12 @@ const Education = () => {
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">
             {val.degree}
-            <span className="place open-sans-font">{val.institute}</span>
+            <p className="open-sans-font">{val.institute}</p>
           </h5>
           <p className="open-sans-font">{val.details}</p>
+          <p className="open-sans-font">{val.details1}</p>
+          <p className="open-sans-font">{val.details11}</p>
+          <p className="open-sans-font">{val.details111}</p>
         </li>
       ))}
     </ul>

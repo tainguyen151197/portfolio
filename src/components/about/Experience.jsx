@@ -60,7 +60,7 @@ const Experience = () => {
           <br></br><p classname="open-sans-font">{val.project2}</p><br></br>
           <p className="open-sans-font">{val.details2}</p>
           <p className="open-sans-font">{val.details22}</p>
-          <p className="open-sans-font">{val.details2222}</p>
+          <p className="open-sans-font">{val.details222}</p>
           <p className="open-sans-font">{val.details2222}</p>
         </li>
       ))}
